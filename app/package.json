@@ -1,0 +1,11 @@
+{
+  "main": "./main.prod.js",
+  "scripts": {
+    "electron-rebuild": "node -r babel-register ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "npm run electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "typeface-roboto": "^0.0.54"
+  }
+}
